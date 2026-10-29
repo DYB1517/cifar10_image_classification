@@ -1,5 +1,4 @@
 
-import os
 import time
 import random
 
@@ -7,7 +6,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import mlflow
-from torch.utils.data import TensorDataset, DataLoader, Subset
+from torch.utils.data import TensorDataset, DataLoader
 from tqdm import tqdm
 
 from src.data import load_cifar10

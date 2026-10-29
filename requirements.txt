@@ -1,0 +1,6 @@
+torch
+torchvision
+albumentations
+mlflow
+tqdm
+numpy
